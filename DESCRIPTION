@@ -1,9 +1,22 @@
 Package: fost
-Title: What the Package Does (one line, title case)
+Title: Formatting and Style Templates for Journal Manscript Submission
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.2.5)
-License: What license is it under?
+Authors@R: person("Luke", "Johnston", email = "lwjohnst@gmail.com", role = c("aut", "cre"))
+Description: Similar to the package rticles, but mainly targetted for biomedical
+    journals. This package provides template R Markdown files with associated
+    commands to generate a document that suits the journals submission requirements.
+Depends:
+    R (>= 3.2.5)
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Suggests:
+    testthat,
+    knitr
+VignetteBuilder: knitr
+Imports:
+    rmarkdown
+RoxygenNote: 5.0.1
+BugReports: https://github.com/lwjohnst86/fost/issues
+URL: https://github.com/lwjohnst86/fost
+
