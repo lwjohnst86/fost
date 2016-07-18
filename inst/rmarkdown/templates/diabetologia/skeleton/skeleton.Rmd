@@ -1,0 +1,122 @@
+---
+bibliography: 
+    - /path/to/bib
+output: fost::diabetologia_manuscript
+---
+
+<!-- full instructions here http://www.diabetologia-journal.org/instructionstoauthors.html -->
+
+```{r knit_setup, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, dev = c('png', 'postscript'))
+```
+
+```{r caption_setup}
+# Include captions below using `captioner` package via library(captioner)
+fig <- captioner::captioner(prefix = 'Fig.')
+cite_f <- pryr::partial(fig, display = 'cite')
+sfig <- captioner::captioner(prefix = 'ESM Fig.')
+cite_sf <- pryr::partial(sfig, display = 'cite')
+tab <- captioner::captioner(prefix = 'Table')
+cite_t <- pryr::partial(tab, display = 'cite')
+stab <- captioner::captioner(prefix = 'ESM Table')
+cite_st <- pryr::partial(stab, display = 'cite')
+```
+
+# Title page
+
+Title:
+
+<!-- First, middle initial, last -->
+Authors:
+
+<!-- During time of study. -->
+Institutions of origin:
+
+Corresponding author:
+
+- Name:
+- Current address:
+- Phone number:
+- Fax number:
+- Email:
+
+Word count - Abstract: / 250
+<!-- technically no word limit, but website has technical limitations -->
+
+Word count - Main text: / 4000
+<!-- Only main text (Intro, Methods, Results, Discussion) and figure legends
+included in word count -->
+
+Table and figure count: / 4
+
+<!-- Reference limit / 50 -->
+
+# Abstract
+<!-- no unexplained abbreviations -->
+
+Aims/hypothesis:
+
+Methods:
+
+Results:
+
+Conclusions:
+
+Keywords:
+<!-- up to 10 -->
+
+Abbreviations:
+<!-- all abbreviations (not standard Diabetologia abbreviations) used in the
+manuscript, in alphabetical order -->
+
+# Introduction 
+<!-- clear statement of aim and novelty, no results or conclusions -->
+
+# Methods
+<!-- must include relevant checklists (NIH preclinical, CONSORT, STROBE, etc).
+Use 'diabetic patients', not 'diabetics'. Greek symbols for pancreas cells
+should *not* be used. -->
+
+# Results
+<!-- do not repeat the results that are presented in tables/figures. Summarize
+them instead. -->
+
+# Conclusions
+<!-- interpret the results, following a structured outline: statement of
+principal findings, strengths and weaknesses of the study, strengths and
+weaknesses in relation to other studies, discuss important differences in
+results, meaning of the study, unanswered questions and future research. -->
+
+# Acknowledgements
+<!-- keep it brief. Include grant support, editorial support. Include full names
+and institutions. -->
+
+## Funding
+<!-- full name of funding organizations -->
+
+## Duality of interest
+<!-- conflicts of interest -->
+
+## Author contributions
+
+# References
+
+# Tables
+<!-- should be self-explanatory, but reduce amount of detail of methods (keep in
+Method section) -->
+
+# Figure legends
+
+<!-- figures should be separate files. EPS format is the preferred format. Don't
+have a legend in the figure. Weight of 0.75pt for axis lines and other lines.
+Embed the fonts (not converted to lines). Use Arial or Helvetica font, 8-12pt
+size. Colour is allowed.
+
+Legends should be kept in the main document. Be concise, self-explanatory, but
+keep it brief on the methods used (keep in Method section). Included in word
+count.-->
+
+# Electronic Supplementary Material (ESM)
+
+<!-- should have label "ESM Methods", etc. Should be separate files for each
+material. -->
