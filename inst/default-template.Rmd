@@ -1,0 +1,67 @@
+---
+title: "Default formatting"
+author: "Luke W. Johnston"
+date: "July 18, 2016"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+*italic*   **bold**
+
+_italic_   __bold__
+
+Lorem ipsum dolor sit amet, duis bonorum impedit et vel, dicam oportere duo an. Intellegam concludaturque et sed, id falli possim probatus sed. An sonet congue eleifend cum. At nonumes instructior vis, ut sea elaboraret consequuntur. At eum possit apeirian. Ut labitur intellegat sadipscing vel.
+
+Volutpat adolescens voluptatum no eos, pri falli aeterno ei. Adhuc minim deterruisset ex quo, omnesque splendide constituam qui an, duo no salutatus sadipscing. Et minimum scribentur vim. Id illum vocibus pri. Vel appareat praesent ut, ei ius quidam epicurei intellegam.
+
+* Item 1
+* Item 2
+    + Item 2a
+    + Item 2b
+    
+1. Item 1
+2. Item 2
+3. Item 3
+    + Item 3a
+    + Item 3b
+
+```{r}
+summary(cars$dist)
+summary(cars$speed)
+```
+
+There were `r nrow(cars)` cars studied
+
+http://example.com
+
+[linked phrase](http://example.com)
+
+```{r figure_caption, fig.cap="Caption"}
+plot(cars)
+```
+
+A friend once said:
+
+> It's always better to give
+> than to receive.
+
+```
+This text is displayed verbatim / preformatted
+```
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+Table: Table caption
+
