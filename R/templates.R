@@ -17,6 +17,19 @@ templates <- function() {
 
 #' @rdname templates
 #' @export
+default_manuscript <- function(fig_width = 7, fig_height = 6, keep_md = TRUE) {
+    rmarkdown::word_document(
+        fig_width = fig_width,
+        fig_height = fig_height,
+        keep_md = keep_md,
+        fig_caption = TRUE,
+        reference_docx = template_reference('default', 'reference.docx')
+    )
+}
+
+
+#' @rdname templates
+#' @export
 diabetologia_manuscript <- function(fig_width = 7, fig_height = 6, keep_md = TRUE) {
     rmarkdown::word_document(
         fig_width = fig_width,
