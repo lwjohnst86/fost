@@ -1,0 +1,100 @@
+---
+csl: vancouver.csl # Need to download this
+output: fost::diabetes_care_manuscript
+---
+
+```{r knit_setup, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, dev = c('png', 'postscript'))
+```
+
+```{r caption_setup}
+## Include captions below using `captioner` package via library(captioner)
+fig <- captioner(prefix = 'Figure')
+cite_f <- pryr::partial(fig, display = 'cite')
+sfig <- captioner(prefix = 'Supplemental Figure S')
+cite_sf <- pryr::partial(sfig, display = 'cite')
+tab <- captioner(prefix = 'Table')
+cite_t <- pryr::partial(tab, display = 'cite')
+stab <- captioner(prefix = 'Supplemental Table S')
+cite_st <- pryr::partial(stab, display = 'cite')
+```
+
+# Title page
+
+Title:
+
+<!-- 47 characters + spaces -->
+Running title: 
+
+<!-- First, middle initial, last, highest academic degree -->
+Authors:
+
+<!-- During time of study. -->
+Affiliation:
+
+Corresponding author:
+
+- Name:
+- Current address:
+- Phone number:
+- Fax number:
+- Email:
+
+Word count: / 4000
+
+Table and figure count: / 4
+
+<!-- Reference limit / 40 -->
+
+<!-- 250 words -->
+# Abstract
+
+Objective:
+
+Research Design and Methods:
+
+Results:
+
+Conclusions:
+
+<!-- Remove when submitting -->
+# Introduction 
+
+# Research Design and Methods
+
+# Results
+
+# Conclusions
+
+# Acknowledgements
+
+<!-- Acknowledgments should contain the author contributions paragraph, brief 
+statements of assistance, the guarantor's name (person[s] taking responsibility 
+for the contents of the article), funding/financial support, and reference to 
+prior publication of the study in abstract form, where applicable. -->
+
+# References
+
+# Tables
+
+<!-- Each table should be inserted on a separate page at the end of the document
+with the table number, title, and legend indicated. Table legends should be
+inserted below the table and should not be included inside the table. -->
+
+# Figure legends
+
+<!-- Figure fonts should be 8-10 points, should be standard fonts (e.g. Arial),
+and should be embedded. Key information should be placed in any available white
+space within the figure; if space is not available, the information should be
+placed in the legend. In general, figures with multiple parts should be marked
+A, B, C, etc., with a description of each panel included in the legend rather
+than on the figure. Line or bar graphs or flow charts with text should be
+created in black and white, not shades of gray, which are difficult to reproduce
+in even tones. Best formats are TIFF, EPS, or PDF. -->
+
+# Supplemental Data
+
+<!-- All online-only supplementary files should be combined in one document file
+whenever possible and uploaded during the submission process. The file must be
+clearly labeled as “Online-Only Supplemental Material” (tables, figures, etc.).
+They should be labeled as such: “Supplemental Table S1”, etc. -->

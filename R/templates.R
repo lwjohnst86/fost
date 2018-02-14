@@ -61,7 +61,7 @@ diabetes_care_manuscript <- function(fig_width = 7, fig_height = 6, keep_md = TR
         fig_height = fig_height,
         keep_md = keep_md,
         fig_caption = TRUE,
-        reference_docx = template_reference('diabetes-care', 'reference.docx')
+        reference_docx = template_reference('diabetes_care', 'reference.docx')
     )
 }
 
