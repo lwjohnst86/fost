@@ -76,3 +76,15 @@ diabetes_manuscript <- function(fig_width = 7, fig_height = 6, keep_md = TRUE) {
         reference_docx = template_reference('diabetes', 'reference.docx')
     )
 }
+
+#' @rdname templates
+#' @export
+jlr_manuscript <- function(fig_width = 7, fig_height = 6, keep_md = TRUE) {
+    rmarkdown::word_document(
+        fig_width = fig_width,
+        fig_height = fig_height,
+        keep_md = keep_md,
+        fig_caption = TRUE,
+        reference_docx = template_reference('jlr', 'reference.docx')
+    )
+}
