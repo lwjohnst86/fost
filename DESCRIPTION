@@ -6,7 +6,7 @@ Description: Similar to the package rticles, but mainly targetted for biomedical
     journals. This package provides template R Markdown files with associated
     commands to generate a document that suits the journals submission requirements.
 Depends:
-    R (>= 3.2.5)
+    R (>= 3.4.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
