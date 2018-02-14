@@ -1,0 +1,81 @@
+---
+output: fost::jlr_manuscript
+csl: vancouver.csl # Need to download
+---
+
+<!-- full instructions here http://www.jlr.org/site/misc/ifora.xhtml#text -->
+
+```{r knit_setup, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, dev = c('png', 'postscript'))
+```
+
+```{r caption_setup}
+# Include captions below using `captioner` package via library(captioner)
+fig <- captioner::captioner(prefix = 'Fig.')
+cite_f <- pryr::partial(fig, display = 'cite')
+tab <- captioner::captioner(prefix = 'Table')
+cite_t <- pryr::partial(tab, display = 'cite')
+```
+
+# Title page
+
+Title (110 characters):
+
+<!-- First, middle initial, last, full address, institutions. Indicate which will be
+corresponding. -->
+Authors:
+
+Corresponding author contact information:
+
+- Name:
+- Current address:
+- Phone number:
+- Fax number:
+- Email:
+
+Running title (max 60 characters):
+
+<!-- Those not found in JLR list -->
+Abbreviations:
+
+<!-- No word limit, though be concise. No supplemental material necessary. -->
+
+# Abstract
+<!-- no unexplained abbreviations. 200 words. State objectives and new findings, 
+with short conclusion of two or three sentences -->
+
+Aims/hypothesis:
+
+Methods:
+
+Results:
+
+Conclusions:
+
+# Keywords
+<!-- up to 10. Five from list, five free-form. Should not appear in title or
+running title -->
+
+# Introduction 
+
+# Materials and Methods
+
+# Results
+
+# Discussion
+
+# Acknowledgements/grant support
+
+# References
+
+# Tables
+<!-- One table per page -->
+
+# Figures and figure legends
+<!-- No specific limit to number of figures. One figure per page. Initial
+submission include figures with manuscript, all as PDF. EPS format is the
+preferred format, otherwise 1000 dpi. Don't have a legend in the figure. Weight
+of 0.25pt or more for thickness. Embed the fonts (not converted to
+lines). Use Arial or Helvetica font, 11pt size. Colour is allowed. Maximum
+height of image should be 10 inches.
+-->
