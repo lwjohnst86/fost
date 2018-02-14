@@ -1,6 +1,4 @@
 ---
-bibliography: 
-    - /path/to/bib
 output: fost::diabetologia_manuscript
 ---
 
@@ -47,8 +45,6 @@ Word count - Main text: / 4000
 <!-- Only main text (Intro, Methods, Results, Discussion) and figure legends
 included in word count -->
 
-Table and figure count: / 4
-
 <!-- Reference limit / 50 -->
 
 # Abstract
@@ -82,10 +78,14 @@ should *not* be used. -->
 them instead. -->
 
 # Conclusions
-<!-- interpret the results, following a structured outline: statement of
-principal findings, strengths and weaknesses of the study, strengths and
-weaknesses in relation to other studies, discuss important differences in
-results, meaning of the study, unanswered questions and future research. -->
+<!-- interpret the results, following a structured outline: 
+- statement of principal findings
+- strengths and weaknesses of the study
+- strengths and weaknesses in relation to other studies
+- discuss important differences in results
+- meaning of the study
+- unanswered questions and future research. 
+-->
 
 # Acknowledgements
 <!-- keep it brief. Include grant support, editorial support. Include full names
@@ -97,7 +97,7 @@ and institutions. -->
 ## Duality of interest
 <!-- conflicts of interest -->
 
-## Author contributions
+## Contribution statement
 
 # References
 
