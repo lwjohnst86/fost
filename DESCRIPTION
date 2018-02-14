@@ -16,7 +16,6 @@ Suggests:
 VignetteBuilder: knitr
 Imports:
     rmarkdown
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 BugReports: https://github.com/lwjohnst86/fost/issues
 URL: https://github.com/lwjohnst86/fost
-
